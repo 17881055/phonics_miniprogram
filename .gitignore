@@ -1,5 +1,5 @@
 .DS_Store
-.history/
+.history
 node_modules/
 dist/
 npm-debug.log*
@@ -12,3 +12,4 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+*.history
