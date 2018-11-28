@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "HOME",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "i-button": "../../static/iview/button/index",
+    "i-card": "../../static/iview/card/index"
+  }
+}

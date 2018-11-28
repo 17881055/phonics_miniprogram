@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ceeff7",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "HOME",
+  "backgroundColor": "#ceeff7",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "i-button": "../../static/iview/button/index",
+  }
+}
