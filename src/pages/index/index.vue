@@ -1,29 +1,36 @@
 <template>
+  <div class="container">
 
-  <div class="container"
-       @click="clickHandle('test click', $event)">
-    <div class="userinfo"
-         @click="bindViewTap">
-      <img class="userinfo-avatar"
-           v-if="userInfo.avatarUrl"
-           :src="userInfo.avatarUrl"
-           background-size="cover" />
-      <div class="userinfo-nickname">
-        <card :text="userInfo.nickName"></card>
-      </div>
+    <div class="button">
+      <a @click="handleReviewClick(26)"
+         class="">
+        初级练习26张
+      </a>
     </div>
-
-    <div class="usermotto">
-      <div class="user-motto">
-        <card :text="motto"></card>
-      </div>
+     <div class="button">
+      <a @click="handleReviewClick(46)"
+         class="">
+        中级练习46张
+      </a>
     </div>
-
-    <i-card title="卡片标题"
-            extra="关闭">
-      <view slot="content">内容不错</view>
-      <view slot="footer">尾部内容</view>
-    </i-card>
+     <div class="button">
+      <a @click="handleReviewClick(54)"
+         class="">
+        高级练习54张
+      </a>
+    </div>
+    <div class="button">
+      <a @click="handleReviewClick"
+         class="">
+        小游戏
+      </a>
+    </div>
+    <div class="button">
+      <a @click="handleReviewClick"
+         class="">
+        拓展词汇
+      </a>
+    </div>
 
   </div>
 </template>
@@ -34,7 +41,7 @@ import card from "@/components/card";
 export default {
   data() {
     return {
-      motto: "Hello World",
+      motto: "base64.BUTTON_BG",
       userInfo: {}
     };
   },
@@ -45,10 +52,10 @@ export default {
 
   methods: {
     bindViewTap() {
-      const url = "../logs/main";
+      const url = "../review/main";
       wx.navigateTo({ url });
     },
-    getUserInfo() {
+    /*  getUserInfo() {
       // 调用登录接口
       wx.login({
         success: () => {
@@ -59,11 +66,10 @@ export default {
           });
         }
       });
-    },
-    handleClick() {
-      wx.navigateTo({
-        url: `/pages/counter/main`
-      });
+    }, */
+    handleReviewClick(num) {
+      const url = `../review/main?id=${num}`;
+      wx.navigateTo({ url });
     },
     clickHandle(msg, ev) {
       //console.log('clickHandle:', msg, ev);
@@ -72,52 +78,41 @@ export default {
 
   created() {
     // 调用应用实例的方法获取全局数据
-    this.getUserInfo();
+    //this.getUserInfo();
   }
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .container {
   width: 100%;
   height: 100%;
-  background: url("https://wellwell.wang/static/img/bg@2x.png")  0 -10rpx;
+  background: url("https://wellwell.wang/static/img/bg@2x.png") 0 -10rpx;
   background-size: 100% 100%;
-}
-
-.userinfo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 150px;
-}
-
-.form-control {
+.button {
+  margin-bottom: 50rpx;
   display: block;
-  padding: 0 12px;
-  margin-bottom: 5px;
-  border: 1px solid #ccc;
-}
-
-.counter {
-  display: inline-block;
-  margin: 10px auto;
-  padding: 5px 10px;
-  color: blue;
-  border: 1px solid blue;
+  width: 445rpx;
+  height: 120rpx;
+  border: 7rpx solid #855931f0;
+  border-radius: 30rpx;
+  background: #efd69c;
+  &:active {
+    transform: scale(0.9);
+    background: #efd69c;
+  }
+  > a {
+    color: #855931;
+    text-align: center;
+    margin: 30rpx 0;
+    font-size: 42rpx;
+    font-weight: bolder;
+  }
 }
 </style>

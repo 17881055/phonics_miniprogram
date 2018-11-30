@@ -1,17 +1,18 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"nodeModules": false
+		"nodeModules": false,
+		"uglifyFileName": false
 	},
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
-	"appid": "wx4296c017c4cd2600",
-	"projectname": "Phonics",
+	"appid": "wx899dc066d1e3e31c",
+	"projectname": "PhonicsBox",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -21,13 +22,23 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "字母",
+					"pathName": "pages/review/main"
+				}
+			]
 		}
 	}
 }

@@ -1,10 +1,9 @@
 {
   "navigationBarBackgroundColor": "#ceeff7",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "Phonics Box",
+  "navigationBarTitleText": "字母练习",
   "backgroundColor": "#ceeff7",
   "backgroundTextStyle": "light",
   "usingComponents": {
-    "i-button": "../../static/iview/button/index"
   }
 }
