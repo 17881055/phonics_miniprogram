@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#ceeff7",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "Game",
+  "backgroundColor": "#ceeff7",
+  "backgroundTextStyle": "light",
+  "disableScroll": true,
+  "usingComponents": {}
+}

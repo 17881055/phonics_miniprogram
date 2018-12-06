@@ -31,12 +31,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "字母",
-					"pathName": "pages/review/main"
+					"pathName": "pages/review/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "game",
+					"pathName": "pages/game/main"
 				}
 			]
 		}

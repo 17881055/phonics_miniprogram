@@ -2,32 +2,27 @@
   <div class="container">
 
     <div class="button">
-      <a @click="handleReviewClick(26)"
-         class="">
+      <a @click="handleReviewClick(26)">
         初级练习26张
       </a>
     </div>
-     <div class="button">
-      <a @click="handleReviewClick(46)"
-         class="">
+    <div class="button">
+      <a @click="handleReviewClick(46)">
         中级练习46张
       </a>
     </div>
-     <div class="button">
-      <a @click="handleReviewClick(54)"
-         class="">
+    <div class="button">
+      <a @click="handleReviewClick(54)">
         高级练习54张
       </a>
     </div>
     <div class="button">
-      <a @click="handleReviewClick"
-         class="">
+      <a @click="handleGameClick(1)">
         小游戏
       </a>
     </div>
     <div class="button">
-      <a @click="handleReviewClick"
-         class="">
+      <a @click="handleReviewClick">
         拓展词汇
       </a>
     </div>
@@ -55,20 +50,12 @@ export default {
       const url = "../review/main";
       wx.navigateTo({ url });
     },
-    /*  getUserInfo() {
-      // 调用登录接口
-      wx.login({
-        success: () => {
-          wx.getUserInfo({
-            success: res => {
-              this.userInfo = res.userInfo;
-            }
-          });
-        }
-      });
-    }, */
     handleReviewClick(num) {
       const url = `../review/main?id=${num}`;
+      wx.navigateTo({ url });
+    },
+    handleGameClick(num) {
+      const url = `../game/main?id=${num}`;
       wx.navigateTo({ url });
     },
     clickHandle(msg, ev) {

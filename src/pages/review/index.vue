@@ -152,19 +152,16 @@ const LETTER_26 = [
   "z"
 ];
 
-const DEFAULT = {
-  id: 26,
-  letters: [],
-  first: true,
-  letter: "",
-  overLetter: [],
-  start: false,
-  back: false
-};
 export default {
   data() {
     return {
-      ...DEFAULT
+      id: 26,
+      letters: [],
+      first: true,
+      letter: "",
+      overLetter: [],
+      start: false,
+      back: false
     };
   },
   computed: {
@@ -173,6 +170,7 @@ export default {
     }
   },
   mounted: function() {
+    console.log(this);
     if (this.$root.$mp.query) {
       this.id = this.$root.$mp.query.id || 26;
     }
@@ -188,12 +186,16 @@ export default {
         this.letters = LETTER_26.concat();
         break;
     }
-     console.log("letters",  this.letters);
   },
   onUnload() {
-    this.data = {
-      ...DEFAULT
-    };
+    console.log(this);
+    this.id = 26;
+    this.letters = [];
+    this.first = true;
+    this.letter = "";
+    this.overLetter = [];
+    this.start = false;
+    this.back = false;
   },
   methods: {
     handleClick() {

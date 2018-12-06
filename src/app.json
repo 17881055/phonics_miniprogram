@@ -1,12 +1,13 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/review/main"
+    "pages/review/main",
+    "pages/game/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   }
 }

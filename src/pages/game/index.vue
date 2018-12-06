@@ -1,0 +1,90 @@
+<template>
+
+  <div class="container">
+    <w-game :show="start" />
+    <w-loading :show="false" />
+
+    <div class="foot"
+         v-if="!start">
+      <div class="button">
+        <a @click="handleClick">
+          Start
+        </a>
+      </div>
+    </div>
+
+  </div>
+</template>
+
+<script>
+import wGame from "@/components/wGame";
+import wLoading from "@/components/wLoading";
+
+export default {
+  components: {
+    wGame,
+    wLoading
+  },
+  data() {
+    return {
+      start: false
+    };
+  },
+  computed: {},
+  mounted: function() {},
+  onUnload() {
+    this.start = false;
+  },
+  methods: {
+    handleClick() {
+      this.start = true;
+    }
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.container {
+  width: 100%;
+  height: 100%;
+  background: url("https://wellwell.wang/static/img/bg@2x.png") 700rpx -10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .total {
+    color: #855931;
+    font-size: 32rpx;
+    font-weight: bolder;
+  }
+}
+
+.button {
+  margin-bottom: 80rpx;
+  display: block;
+  width: 165rpx;
+  height: 165rpx;
+  border: 7rpx solid #855931f0;
+  border-radius: 165rpx;
+  background: #efd69c;
+  &:active {
+    transform: scale(0.9);
+    background: #efd69c;
+  }
+  > a {
+    color: #855931;
+    text-align: center;
+    line-height: 150rpx;
+    font-size: 52rpx;
+    font-weight: bolder;
+  }
+}
+</style>
