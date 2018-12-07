@@ -1,8 +1,8 @@
 <template>
 
   <div class="container">
-    <w-game :show="start" />
-    <w-loading :show="false" />
+    <w-game :show="start" :json="gameJson"/>
+    <w-loading :show="loading" />
 
     <div class="foot"
          v-if="!start">
@@ -19,6 +19,7 @@
 <script>
 import wGame from "@/components/wGame";
 import wLoading from "@/components/wLoading";
+import { setTimeout } from "timers";
 
 export default {
   components: {
@@ -27,15 +28,37 @@ export default {
   },
   data() {
     return {
-      start: false
+      gameJson: null,
+      start: false,
+      loading: false
     };
   },
   computed: {},
-  mounted: function() {},
+  mounted: function() {
+    if(!this.gameJson){
+      this.loadGameConf();
+    }
+  },
   onUnload() {
     this.start = false;
   },
   methods: {
+    loadGameConf() {
+      this.loading = true;
+      this.$httpWX
+        .get({
+          url: "/static/json/wgame.json"
+        })
+        .then(res => {
+          setTimeout(() => {
+            this.loading = false;
+          }, 1000);
+          this.gameJson = res;
+        })
+        .catch(() => {
+          this.loading = false;
+        });
+    },
     handleClick() {
       this.start = true;
     }

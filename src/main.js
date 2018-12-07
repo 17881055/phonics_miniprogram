@@ -1,8 +1,10 @@
-import Vue from 'vue'
-import App from './App'
+import Vue from 'vue';
+import App from './App';
+import utils from './utils';
 
-Vue.config.productionTip = false
-App.mpType = 'app'
+Vue.config.productionTip = false;
+Vue.prototype.$httpWX = utils.WXrequest;
+App.mpType = 'app';
 
-const app = new Vue(App)
-app.$mount()
+const app = new Vue(App);
+app.$mount();

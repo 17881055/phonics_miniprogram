@@ -1,0 +1,1217 @@
+{
+  "path": "https://wellwell.wang/static/img/game",
+  "vesion": "20181207",
+  "word": {
+    "A": [{
+        "id": "ant",
+        "group": "a",
+        "rule": "_nt",
+        "url": "/a/ant.jpg",
+        "map3": "/a/ant.mp3",
+        "question": ["a", "c", "s", "k"],
+        "answer": "a"
+      },
+      {
+        "id": "bag",
+        "group": "a",
+        "rule": "b_g",
+        "url": "/a/bag.jpg",
+        "map3": "/a/bag.mp3",
+        "question": ["a", "m", "g", "z"],
+        "answer": "a"
+      },
+      {
+        "id": "cat",
+        "group": "a",
+        "rule": "c_t",
+        "url": "/a/cat.jpg",
+        "map3": "/a/cat.mp3",
+        "question": ["a", "t", "r", "e"],
+        "answer": "a"
+      },
+      {
+        "id": "gas",
+        "group": "a",
+        "rule": "g_s",
+        "url": "/a/gas.jpg",
+        "map3": "/a/gas.mp3",
+        "question": ["a", "u", "w", "y"],
+        "answer": "a"
+      },
+      {
+        "id": "sad",
+        "group": "a",
+        "rule": "s_d",
+        "url": "/a/sad.jpg",
+        "map3": "/a/sad.mp3",
+        "question": ["a", "b", "c", "d"],
+        "answer": "a"
+      }
+    ],
+    "B": [{
+        "id": "ball",
+        "group": "b",
+        "rule": "_all",
+        "url": "/b/ball.jpg",
+        "map3": "/b/ball.mp3",
+        "question": ["b", "p", "c", "l"],
+        "answer": "b"
+      },
+      {
+        "id": "bell",
+        "group": "b",
+        "rule": "_ell",
+        "url": "/b/bell.jpg",
+        "map3": "/b/bell.mp3",
+        "question": ["b", "p", "z", "w"],
+        "answer": "b"
+      },
+      {
+        "id": "bag",
+        "group": "b",
+        "rule": "_ag",
+        "url": "/b/bag.jpg",
+        "map3": "/b/bag.mp3",
+        "question": ["b", "p", "e", "s"],
+        "answer": "b"
+      },
+      {
+        "id": "cab",
+        "group": "b",
+        "rule": "ca_",
+        "url": "/b/cab.jpg",
+        "map3": "/b/cab.mp3",
+        "question": ["b", "p", "k", "n"],
+        "answer": "b"
+      },
+      {
+        "id": "cub",
+        "group": "b",
+        "rule": "cu_",
+        "url": "/b/cub.jpg",
+        "map3": "/b/cub.mp3",
+        "question": ["b", "p", "c", "l"],
+        "answer": "b"
+      }
+    ],
+    "C": [{
+        "id": "cat",
+        "group": "c",
+        "rule": "_at",
+        "url": "/c/cat.jpg",
+        "map3": "/c/cat.mp3",
+        "question": ["z", "t", "y", "c"],
+        "answer": "c"
+      },
+      {
+        "id": "ceiling",
+        "group": "c",
+        "rule": "_eiling",
+        "url": "/c/ceiling.jpg",
+        "map3": "/c/ceiling.mp3",
+        "question": ["b", "t", "y", "c"],
+        "answer": "c"
+      },
+      {
+        "id": "cereal",
+        "group": "c",
+        "rule": "_ereal",
+        "url": "/c/cereal.jpg",
+        "map3": "/c/cereal.mp3",
+        "question": ["z", "t", "w", "c"],
+        "answer": "c"
+      },
+      {
+        "id": "circle",
+        "group": "c",
+        "rule": "_ircle",
+        "url": "/c/circle.jpg",
+        "map3": "/c/circle.mp3",
+        "question": ["c", "a", "e", "f"],
+        "answer": "c"
+      },
+      {
+        "id": "city",
+        "group": "c",
+        "rule": "_ity",
+        "url": "/c/cereal.jpg",
+        "map3": "/c/cereal.mp3",
+        "question": ["z", "t", "w", "c"],
+        "answer": "c"
+      },
+      {
+        "id": "cob",
+        "group": "c",
+        "rule": "_ob",
+        "url": "/c/cob.jpg",
+        "map3": "/c/cob.mp3",
+        "question": ["z", "t", "w", "c"],
+        "answer": "c"
+      },
+      {
+        "id": "computer",
+        "group": "c",
+        "rule": "_omputer",
+        "url": "/c/computer.jpg",
+        "map3": "/c/computer.mp3",
+        "question": ["z", "t", "w", "c"],
+        "answer": "c"
+      },
+      {
+        "id": "cub",
+        "group": "c",
+        "rule": "_ub",
+        "url": "/c/cub.jpg",
+        "map3": "/c/cub.mp3",
+        "question": ["z", "b", "n", "c"],
+        "answer": "c"
+      },
+      {
+        "id": "cup",
+        "group": "c",
+        "rule": "_up",
+        "url": "/c/cup.jpg",
+        "map3": "/c/cup.mp3",
+        "question": ["m", "v", "w", "c"],
+        "answer": "c"
+      }
+
+    ],
+    "D": [{
+        "id": "bed",
+        "group": "d",
+        "rule": "be_",
+        "url": "/d/bed.jpg",
+        "map3": "/d/bed.mp3",
+        "question": ["z", "t", "y", "d"],
+        "answer": "d"
+      },
+      {
+        "id": "dog",
+        "group": "d",
+        "rule": "_og",
+        "url": "/d/dog.jpg",
+        "map3": "/d/dog.mp3",
+        "question": ["g", "v", "y", "d"],
+        "answer": "d"
+      },
+      {
+        "id": "doll",
+        "group": "d",
+        "rule": "_oll",
+        "url": "/d/doll.jpg",
+        "map3": "/d/doll.mp3",
+        "question": ["g", "v", "y", "d"],
+        "answer": "d"
+      },
+      {
+        "id": "sad",
+        "group": "d",
+        "rule": "sa_",
+        "url": "/d/sad.jpg",
+        "map3": "/d/sad.mp3",
+        "question": ["g", "v", "y", "d"],
+        "answer": "d"
+      }
+    ],
+    "E": [{
+        "id": "bed",
+        "group": "e",
+        "rule": "b_d",
+        "url": "/e/bed.jpg",
+        "map3": "/e/bed.mp3",
+        "question": ["a", "o", "y", "e"],
+        "answer": "e"
+      },
+      {
+        "id": "egg",
+        "group": "e",
+        "rule": "_gg",
+        "url": "/e/egg.jpg",
+        "map3": "/e/egg.mp3",
+        "question": ["g", "x", "y", "e"],
+        "answer": "e"
+      },
+      {
+        "id": "elephant",
+        "group": "e",
+        "rule": "_lephant",
+        "url": "/e/elephant.jpg",
+        "map3": "/e/elephant.mp3",
+        "question": ["s", "g", "h", "e"],
+        "answer": "e"
+      },
+      {
+        "id": "tent",
+        "group": "e",
+        "rule": "t_nt",
+        "url": "/e/tent.jpg",
+        "map3": "/e/tent.mp3",
+        "question": ["s", "t", "b", "e"],
+        "answer": "e"
+      }
+    ],
+    "F": [{
+        "id": "fat",
+        "group": "f",
+        "rule": "_at",
+        "url": "/f/fat.jpg",
+        "map3": "/f/fat.mp3",
+        "question": ["a", "o", "h", "f"],
+        "answer": "f"
+      },
+      {
+        "id": "five",
+        "group": "f",
+        "rule": "_ive",
+        "url": "/f/five.jpg",
+        "map3": "/f/five.mp3",
+        "question": ["b", "c", "h", "f"],
+        "answer": "f"
+      },
+      {
+        "id": "foot",
+        "group": "f",
+        "rule": "_oot",
+        "url": "/f/fat.jpg",
+        "map3": "/f/fat.mp3",
+        "question": ["r", "g", "b", "f"],
+        "answer": "f"
+      },
+      {
+        "id": "hoof",
+        "group": "f",
+        "rule": "hoo_",
+        "url": "/f/hoof.jpg",
+        "map3": "/f/hoof.mp3",
+        "question": ["k", "o", "h", "f"],
+        "answer": "f"
+      },
+      {
+        "id": "roof",
+        "group": "f",
+        "rule": "roo_",
+        "url": "/f/roof.jpg",
+        "map3": "/f/roof.mp3",
+        "question": ["a", "y", "h", "f"],
+        "answer": "f"
+      }
+    ],
+    "G": [{
+        "id": "dog",
+        "group": "g",
+        "rule": "do_",
+        "url": "/g/dog.jpg",
+        "map3": "/g/dog.mp3",
+        "question": ["a", "g", "h", "c"],
+        "answer": "g"
+      },
+      {
+        "id": "egg",
+        "group": "g",
+        "rule": "eg_",
+        "url": "/g/egg.jpg",
+        "map3": "/g/egg.mp3",
+        "question": ["a", "g", "h", "b"],
+        "answer": "g"
+      },
+      {
+        "id": "gem",
+        "group": "g",
+        "rule": "_em",
+        "url": "/g/gem.jpg",
+        "map3": "/g/gem.mp3",
+        "question": ["g", "c", "d", "b"],
+        "answer": "g"
+      },
+      {
+        "id": "giant",
+        "group": "g",
+        "rule": "_iant",
+        "url": "/g/giant.jpg",
+        "map3": "/g/giant.mp3",
+        "question": ["g", "a", "h", "i"],
+        "answer": "g"
+      },
+      {
+        "id": "giraffe",
+        "group": "g",
+        "rule": "_iraffe",
+        "url": "/g/giraffe.jpg",
+        "map3": "/g/giraffe.mp3",
+        "question": ["g", "v", "r", "n"],
+        "answer": "g"
+      },
+      {
+        "id": "girl",
+        "group": "g",
+        "rule": "_irl",
+        "url": "/g/girl.jpg",
+        "map3": "/g/girl.mp3",
+        "question": ["g", "y", "b", "j"],
+        "answer": "g"
+      },
+      {
+        "id": "gum",
+        "group": "g",
+        "rule": "_um",
+        "url": "/g/gum.jpg",
+        "map3": "/g/gum.mp3",
+        "question": ["m", "g", "v", "l"],
+        "answer": "g"
+      },
+      {
+        "id": "gym",
+        "group": "g",
+        "rule": "_ym",
+        "url": "/g/gym.jpg",
+        "map3": "/g/gym.mp3",
+        "question": ["g", "c", "n", "k"],
+        "answer": "g"
+      },
+      {
+        "id": "leg",
+        "group": "g",
+        "rule": "le_",
+        "url": "/g/leg.jpg",
+        "map3": "/g/leg.mp3",
+        "question": ["l", "g", "o", "p"],
+        "answer": "g"
+      }
+    ],
+    "H": [{
+        "id": "hat",
+        "group": "h",
+        "rule": "_at",
+        "url": "/h/hat.jpg",
+        "map3": "/h/hat.mp3",
+        "question": ["u", "b", "h", "c"],
+        "answer": "h"
+      },
+      {
+        "id": "heart",
+        "group": "h",
+        "rule": "_eart",
+        "url": "/h/heart.jpg",
+        "map3": "/h/heart.mp3",
+        "question": ["u", "b", "h", "c"],
+        "answer": "h"
+      },
+      {
+        "id": "hill",
+        "group": "h",
+        "rule": "_ill",
+        "url": "/h/hill.jpg",
+        "map3": "/h/hill.mp3",
+        "question": ["f", "b", "h", "c"],
+        "answer": "h"
+      },
+      {
+        "id": "hippo",
+        "group": "h",
+        "rule": "_ippo",
+        "url": "/h/hippo.jpg",
+        "map3": "/h/hippo.mp3",
+        "question": ["u", "y", "h", "a"],
+        "answer": "h"
+      },
+      {
+        "id": "house",
+        "group": "h",
+        "rule": "_ouse",
+        "url": "/h/house.jpg",
+        "map3": "/h/house.mp3",
+        "question": ["i", "b", "h", "e"],
+        "answer": "h"
+      }
+    ],
+    "I": [{
+        "id": "bib",
+        "group": "i",
+        "rule": "b_b",
+        "url": "/i/bib.jpg",
+        "map3": "/i/bib.mp3",
+        "question": ["i", "b", "h", "e"],
+        "answer": "i"
+      },
+      {
+        "id": "igloo",
+        "group": "i",
+        "rule": "_gloo",
+        "url": "/i/igloo.jpg",
+        "map3": "/i/igloo.mp3",
+        "question": ["i", "w", "h", "e"],
+        "answer": "i"
+      },
+      {
+        "id": "ink",
+        "group": "i",
+        "rule": "_nk",
+        "url": "/i/ink.jpg",
+        "map3": "/i/ink.mp3",
+        "question": ["i", "b", "f", "e"],
+        "answer": "i"
+      },
+      {
+        "id": "pig",
+        "group": "i",
+        "rule": "p_g",
+        "url": "/i/pig.jpg",
+        "map3": "/i/pig.mp3",
+        "question": ["i", "c", "h", "b"],
+        "answer": "i"
+      },
+      {
+        "id": "six",
+        "group": "i",
+        "rule": "s_x",
+        "url": "/i/six.jpg",
+        "map3": "/i/six.mp3",
+        "question": ["i", "c", "j", "o"],
+        "answer": "i"
+      }
+    ],
+    "J": [{
+        "id": "jeep",
+        "group": "j",
+        "rule": "_eep",
+        "url": "/j/jeep.jpg",
+        "map3": "/j/jeep.mp3",
+        "question": ["i", "c", "j", "o"],
+        "answer": "j"
+      },
+      {
+        "id": "jet",
+        "group": "j",
+        "rule": "_et",
+        "url": "/j/jet.jpg",
+        "map3": "/j/jet.mp3",
+        "question": ["i", "c", "j", "o"],
+        "answer": "j"
+      },
+      {
+        "id": "jug",
+        "group": "j",
+        "rule": "_ug",
+        "url": "/j/jug.jpg",
+        "map3": "/j/jug.mp3",
+        "question": ["i", "c", "j", "o"],
+        "answer": "j"
+      },
+      {
+        "id": "juice",
+        "group": "j",
+        "rule": "_uice",
+        "url": "/j/juice.jpg",
+        "map3": "/j/juice.mp3",
+        "question": ["i", "c", "j", "o"],
+        "answer": "j"
+      },
+      {
+        "id": "jupm_rope",
+        "group": "j",
+        "rule": "_upm rope",
+        "url": "/j/jupm_rope.jpg",
+        "map3": "/j/jupm_rope.mp3",
+        "question": ["i", "c", "j", "o"],
+        "answer": "j"
+      }
+
+    ],
+    "K": [{
+        "id": "beak",
+        "group": "k",
+        "rule": "bea_",
+        "url": "/k/beak.jpg",
+        "map3": "/k/beak.mp3",
+        "question": ["k", "c", "j", "o"],
+        "answer": "k"
+      },
+      {
+        "id": "cook",
+        "group": "k",
+        "rule": "coo_",
+        "url": "/k/cook.jpg",
+        "map3": "/k/cook.mp3",
+        "question": ["k", "c", "j", "o"],
+        "answer": "k"
+      },
+      {
+        "id": "hook",
+        "group": "k",
+        "rule": "hoo_",
+        "url": "/k/hook.jpg",
+        "map3": "/k/hook.mp3",
+        "question": ["k", "c", "j", "o"],
+        "answer": "k"
+      },
+      {
+        "id": "key",
+        "group": "k",
+        "rule": "_ey",
+        "url": "/k/key.jpg",
+        "map3": "/k/key.mp3",
+        "question": ["k", "c", "j", "o"],
+        "answer": "k"
+      },
+      {
+        "id": "kiss",
+        "group": "k",
+        "rule": "_iss",
+        "url": "/k/kiss.jpg",
+        "map3": "/k/kiss.mp3",
+        "question": ["k", "c", "j", "o"],
+        "answer": "k"
+      }
+    ],
+    "L": [{
+        "id": "doll",
+        "group": "l",
+        "rule": "dol_",
+        "url": "/l/doll.jpg",
+        "map3": "/l/doll.mp3",
+        "question": ["l", "b", "j", "o"],
+        "answer": "l"
+      },
+      {
+        "id": "leg",
+        "group": "l",
+        "rule": "_eg",
+        "url": "/l/leg.jpg",
+        "map3": "/l/leg.mp3",
+        "question": ["l", "b", "j", "o"],
+        "answer": "l"
+      },
+      {
+        "id": "lemon",
+        "group": "l",
+        "rule": "_emon",
+        "url": "/l/lemon.jpg",
+        "map3": "/l/lemon.mp3",
+        "question": ["l", "a", "j", "e"],
+        "answer": "l"
+      },
+      {
+        "id": "line",
+        "group": "l",
+        "rule": "_ine",
+        "url": "/l/line.jpg",
+        "map3": "/l/line.mp3",
+        "question": ["b", "a", "l", "c"],
+        "answer": "l"
+      },
+      {
+        "id": "tall",
+        "group": "l",
+        "rule": "tal_",
+        "url": "/l/tall.jpg",
+        "map3": "/l/tall.mp3",
+        "question": ["b", "a", "l", "c"],
+        "answer": "l"
+      }
+    ],
+    "M": [{
+        "id": "gum",
+        "group": "m",
+        "rule": "gu_",
+        "url": "/m/gum.jpg",
+        "map3": "/m/gum.mp3",
+        "question": ["b", "a", "m", "c"],
+        "answer": "m"
+      },
+      {
+        "id": "man",
+        "group": "m",
+        "rule": "_an",
+        "url": "/m/man.jpg",
+        "map3": "/m/man.mp3",
+        "question": ["b", "a", "m", "c"],
+        "answer": "m"
+      },
+      {
+        "id": "mat",
+        "group": "m",
+        "rule": "_at",
+        "url": "/m/mat.jpg",
+        "map3": "/m/mat.mp3",
+        "question": ["b", "a", "m", "c"],
+        "answer": "m"
+      },
+      {
+        "id": "mom",
+        "group": "m",
+        "rule": "_om",
+        "url": "/m/mom.jpg",
+        "map3": "/m/mom.mp3",
+        "question": ["b", "a", "m", "c"],
+        "answer": "m"
+      },
+      {
+        "id": "team",
+        "group": "m",
+        "rule": "tea_",
+        "url": "/m/team.jpg",
+        "map3": "/m/team.mp3",
+        "question": ["b", "a", "m", "c"],
+        "answer": "m"
+      }
+    ],
+    "N": [{
+        "id": "fan",
+        "group": "n",
+        "rule": "fa_",
+        "url": "/n/fan.jpg",
+        "map3": "/n/fan.mp3",
+        "question": ["f", "n", "m", "c"],
+        "answer": "n"
+      },
+      {
+        "id": "man",
+        "group": "n",
+        "rule": "ma_",
+        "url": "/n/man.jpg",
+        "map3": "/n/man.mp3",
+        "question": ["n", "a", "m", "c"],
+        "answer": "n"
+      },
+      {
+        "id": "neck",
+        "group": "n",
+        "rule": "ma_",
+        "url": "/n/man.jpg",
+        "map3": "/n/man.mp3",
+        "question": ["f", "n", "m", "c"],
+        "answer": "n"
+      },
+      {
+        "id": "nine",
+        "group": "n",
+        "rule": "_ine",
+        "url": "/n/nine.jpg",
+        "map3": "/n/nine.mp3",
+        "question": ["f", "a", "n", "c"],
+        "answer": "n"
+      },
+      {
+        "id": "sun",
+        "group": "n",
+        "rule": "su_",
+        "url": "/n/sun.jpg",
+        "map3": "/n/sun.mp3",
+        "question": ["f", "a", "n", "c"],
+        "answer": "n"
+      }
+    ],
+    "O": [{
+        "id": "doll",
+        "group": "o",
+        "rule": "d_ll",
+        "url": "/o/doll.jpg",
+        "map3": "/o/doll.mp3",
+        "question": ["f", "a", "o", "c"],
+        "answer": "o"
+      },
+      {
+        "id": "fox",
+        "group": "o",
+        "rule": "f_x",
+        "url": "/o/fox.jpg",
+        "map3": "/o/fox.mp3",
+        "question": ["f", "a", "o", "c"],
+        "answer": "o"
+      },
+      {
+        "id": "mom",
+        "group": "o",
+        "rule": "m_m",
+        "url": "/o/mom.jpg",
+        "map3": "/o/mom.mp3",
+        "question": ["f", "a", "o", "c"],
+        "answer": "o"
+      },
+      {
+        "id": "octopus",
+        "group": "o",
+        "rule": "_ctopus",
+        "url": "/o/octopus.jpg",
+        "map3": "/o/octopus.mp3",
+        "question": ["f", "a", "o", "c"],
+        "answer": "o"
+      },
+      {
+        "id": "sock",
+        "group": "o",
+        "rule": "s_ck",
+        "url": "/o/sock.jpg",
+        "map3": "/o/sock.mp3",
+        "question": ["f", "a", "o", "c"],
+        "answer": "o"
+      }
+    ],
+    "P": [{
+        "id": "cap",
+        "group": "p",
+        "rule": "ca_",
+        "url": "/p/cap.jpg",
+        "map3": "/p/cap.mp3",
+        "question": ["f", "a", "p", "c"],
+        "answer": "p"
+      },
+      {
+        "id": "mop",
+        "group": "p",
+        "rule": "mo_",
+        "url": "/p/mop.jpg",
+        "map3": "/p/mop.mp3",
+        "question": ["f", "a", "p", "c"],
+        "answer": "p"
+      },
+      {
+        "id": "pencil",
+        "group": "p",
+        "rule": "_encil",
+        "url": "/p/pencil.jpg",
+        "map3": "/p/pencil.mp3",
+        "question": ["f", "a", "p", "c"],
+        "answer": "p"
+      },
+      {
+        "id": "pin",
+        "group": "p",
+        "rule": "_in",
+        "url": "/p/pin.jpg",
+        "map3": "/p/pin.mp3",
+        "question": ["f", "a", "p", "c"],
+        "answer": "p"
+      },
+      {
+        "id": "top",
+        "group": "p",
+        "rule": "to_",
+        "url": "/p/top.jpg",
+        "map3": "/p/top.mp3",
+        "question": ["f", "a", "p", "c"],
+        "answer": "p"
+      }
+    ],
+    "Q": [{
+        "id": "queen",
+        "group": "qu",
+        "rule": "_een",
+        "url": "/qu/queen.jpg",
+        "map3": "/qu/queen.mp3",
+        "question": ["f", "a", "qu", "c"],
+        "answer": "qu"
+      },
+      {
+        "id": "question",
+        "group": "qu",
+        "rule": "_estion",
+        "url": "/qu/question.jpg",
+        "map3": "/qu/question.mp3",
+        "question": ["f", "a", "qu", "c"],
+        "answer": "qu"
+      },
+      {
+        "id": "quiet",
+        "group": "qu",
+        "rule": "_iet",
+        "url": "/qu/quiet.jpg",
+        "map3": "/qu/quiet.mp3",
+        "question": ["f", "a", "qu", "c"],
+        "answer": "qu"
+      },
+      {
+        "id": "quilt",
+        "group": "qu",
+        "rule": "_ilt",
+        "url": "/qu/quilt.jpg",
+        "map3": "/qu/quilt.mp3",
+        "question": ["f", "a", "qu", "c"],
+        "answer": "qu"
+      }
+    ],
+    "R": [{
+        "id": "flower",
+        "group": "r",
+        "rule": "flowe_",
+        "url": "/r/flower.jpg",
+        "map3": "/r/flower.mp3",
+        "question": ["f", "a", "r", "c"],
+        "answer": "r"
+      },
+      {
+        "id": "rainbow",
+        "group": "r",
+        "rule": "_ainbow",
+        "url": "/r/rainbow.jpg",
+        "map3": "/r/rainbow.mp3",
+        "question": ["f", "a", "r", "c"],
+        "answer": "r"
+      },
+      {
+        "id": "red",
+        "group": "r",
+        "rule": "_ed",
+        "url": "/r/red.jpg",
+        "map3": "/r/red.mp3",
+        "question": ["f", "a", "r", "c"],
+        "answer": "r"
+      },
+      {
+        "id": "rock",
+        "group": "r",
+        "rule": "_ock",
+        "url": "/r/rock.jpg",
+        "map3": "/r/rock.mp3",
+        "question": ["f", "a", "r", "c"],
+        "answer": "r"
+      },
+      {
+        "id": "under",
+        "group": "r",
+        "rule": "unde_",
+        "url": "/r/under.jpg",
+        "map3": "/r/under.mp3",
+        "question": ["f", "a", "r", "c"],
+        "answer": "r"
+      }
+    ],
+    "S": [{
+        "id": "bus",
+        "group": "s",
+        "rule": "bu_",
+        "url": "/s/bus.jpg",
+        "map3": "/s/bus.mp3",
+        "question": ["f", "a", "s", "c"],
+        "answer": "s"
+      },
+      {
+        "id": "octopus",
+        "group": "s",
+        "rule": "octopu_",
+        "url": "/s/octopus.jpg",
+        "map3": "/s/octopus.mp3",
+        "question": ["f", "a", "s", "c"],
+        "answer": "s"
+      },
+      {
+        "id": "six",
+        "group": "s",
+        "rule": "_ix",
+        "url": "/s/six.jpg",
+        "map3": "/s/six.mp3",
+        "question": ["f", "a", "s", "c"],
+        "answer": "s"
+      },
+      {
+        "id": "sofa",
+        "group": "s",
+        "rule": "_ofa",
+        "url": "/s/sofa.jpg",
+        "map3": "/s/sofa.mp3",
+        "question": ["f", "a", "s", "c"],
+        "answer": "s"
+      },
+      {
+        "id": "sun",
+        "group": "s",
+        "rule": "_un",
+        "url": "/s/sun.jpg",
+        "map3": "/s/sun.mp3",
+        "question": ["f", "a", "s", "c"],
+        "answer": "s"
+      }
+    ],
+    "T": [{
+        "id": "jet",
+        "group": "t",
+        "rule": "je_",
+        "url": "/t/jet.jpg",
+        "map3": "/t/jet.mp3",
+        "question": ["f", "a", "t", "c"],
+        "answer": "t"
+      },
+      {
+        "id": "rat",
+        "group": "t",
+        "rule": "ra_",
+        "url": "/t/rat.jpg",
+        "map3": "/t/rat.mp3",
+        "question": ["f", "a", "t", "c"],
+        "answer": "t"
+      },
+      {
+        "id": "tap",
+        "group": "t",
+        "rule": "_ap",
+        "url": "/t/tap.jpg",
+        "map3": "/t/tap.mp3",
+        "question": ["f", "a", "t", "c"],
+        "answer": "t"
+      },
+      {
+        "id": "ten",
+        "group": "t",
+        "rule": "_en",
+        "url": "/t/ten.jpg",
+        "map3": "/t/ten.mp3",
+        "question": ["f", "a", "t", "c"],
+        "answer": "t"
+      },
+      {
+        "id": "toe",
+        "group": "t",
+        "rule": "_oe",
+        "url": "/t/toe.jpg",
+        "map3": "/t/toe.mp3",
+        "question": ["f", "a", "t", "c"],
+        "answer": "t"
+      }
+    ],
+    "U": [{
+        "id": "bug",
+        "group": "u",
+        "rule": "b_g",
+        "url": "/u/bug.jpg",
+        "map3": "/u/bug.mp3",
+        "question": ["f", "a", "u", "c"],
+        "answer": "u"
+      },
+      {
+        "id": "cup",
+        "group": "u",
+        "rule": "c_p",
+        "url": "/u/cup.jpg",
+        "map3": "/u/cup.mp3",
+        "question": ["f", "a", "u", "c"],
+        "answer": "u"
+      },
+      {
+        "id": "hug",
+        "group": "u",
+        "rule": "h_g",
+        "url": "/u/hug.jpg",
+        "map3": "/u/hug.mp3",
+        "question": ["f", "a", "u", "c"],
+        "answer": "u"
+      },
+      {
+        "id": "sun",
+        "group": "u",
+        "rule": "s_n",
+        "url": "/u/sun.jpg",
+        "map3": "/u/sun.mp3",
+        "question": ["f", "a", "u", "c"],
+        "answer": "u"
+      },
+      {
+        "id": "umbrella",
+        "group": "u",
+        "rule": "_mbrella",
+        "url": "/u/umbrella.jpg",
+        "map3": "/u/umbrella.mp3",
+        "question": ["f", "a", "u", "c"],
+        "answer": "u"
+      }
+    ],
+    "V": [{
+        "id": "dive",
+        "group": "v",
+        "rule": "di_e",
+        "url": "/v/dive.jpg",
+        "map3": "/v/dive.mp3",
+        "question": ["f", "a", "v", "c"],
+        "answer": "v"
+      },
+      {
+        "id": "glove",
+        "group": "v",
+        "rule": "glo_e",
+        "url": "/v/glove.jpg",
+        "map3": "/v/glove.mp3",
+        "question": ["f", "a", "v", "c"],
+        "answer": "v"
+      }, {
+        "id": "van",
+        "group": "v",
+        "rule": "_an",
+        "url": "/v/van.jpg",
+        "map3": "/v/van.mp3",
+        "question": ["f", "a", "v", "c"],
+        "answer": "v"
+      },
+      {
+        "id": "vest",
+        "group": "v",
+        "rule": "_est",
+        "url": "/v/vest.jpg",
+        "map3": "/v/vest.mp3",
+        "question": ["f", "a", "v", "c"],
+        "answer": "v"
+      },
+      {
+        "id": "vet",
+        "group": "v",
+        "rule": "v_t",
+        "url": "/v/vet.jpg",
+        "map3": "/v/vet.mp3",
+        "question": ["f", "a", "v", "c"],
+        "answer": "v"
+      }
+    ],
+    "W": [{
+      "id": "watch",
+      "group": "w",
+      "rule": "_atch",
+      "url": "/w/watch.jpg",
+      "map3": "/w/watch.mp3",
+      "question": ["f", "a", "w", "c"],
+      "answer": "w"
+    }, {
+      "id": "wave",
+      "group": "w",
+      "rule": "_ave",
+      "url": "/w/wave.jpg",
+      "map3": "/w/wave.mp3",
+      "question": ["f", "a", "w", "c"],
+      "answer": "w"
+    }, {
+      "id": "web",
+      "group": "w",
+      "rule": "w_b",
+      "url": "/w/web.jpg",
+      "map3": "/w/web.mp3",
+      "question": ["f", "a", "w", "c"],
+      "answer": "w"
+    }, {
+      "id": "wig",
+      "group": "w",
+      "rule": "_ig",
+      "url": "/w/wig.jpg",
+      "map3": "/w/wig.mp3",
+      "question": ["f", "a", "w", "c"],
+      "answer": "w"
+    }],
+    "X": [{
+        "id": "ax",
+        "group": "x",
+        "rule": "a_",
+        "url": "/x/ax.jpg",
+        "map3": "/x/ax.mp3",
+        "question": ["m", "a", "x", "n"],
+        "answer": "x"
+      },
+      {
+        "id": "ax",
+        "group": "x",
+        "rule": "bo_",
+        "url": "/x/box.jpg",
+        "map3": "/x/box.mp3",
+        "question": ["y", "a", "x", "c"],
+        "answer": "x"
+      },
+      {
+        "id": "max",
+        "group": "x",
+        "rule": "ma_",
+        "url": "/x/max.jpg",
+        "map3": "/x/max.mp3",
+        "question": ["h", "a", "x", "c"],
+        "answer": "x"
+      }, {
+        "id": "wax",
+        "group": "x",
+        "rule": "wa_",
+        "url": "/x/wax.jpg",
+        "map3": "/x/wax.mp3",
+        "question": ["b", "a", "x", "v"],
+        "answer": "x"
+      }
+    ],
+    "Y": [{
+      "id": "yak",
+      "group": "y",
+      "rule": "_ak",
+      "url": "/y/yak.jpg",
+      "map3": "/y/yak.mp3",
+      "question": ["f", "a", "y", "t"],
+      "answer": "y"
+    }, {
+      "id": "yard",
+      "group": "y",
+      "rule": "_ard",
+      "url": "/y/yard.jpg",
+      "map3": "/y/yard.mp3",
+      "question": ["f", "a", "y", "r"],
+      "answer": "y"
+    }, {
+      "id": "yarn",
+      "group": "y",
+      "rule": "_arn",
+      "url": "/y/yarn.jpg",
+      "map3": "/y/yarn.mp3",
+      "question": ["f", "a", "y", "c"],
+      "answer": "y"
+    }, {
+      "id": "yogurt",
+      "group": "y",
+      "rule": "_ogurt",
+      "url": "/y/yogurt.jpg",
+      "map3": "/y/yogurt.mp3",
+      "question": ["f", "a", "y", "c"],
+      "answer": "y"
+    }, {
+      "id": "yolk",
+      "group": "y",
+      "rule": "_olk",
+      "url": "/y/yolk.jpg",
+      "map3": "/y/yolk.mp3",
+      "question": ["f", "a", "y", "c"],
+      "answer": "y"
+    }],
+    "Z": [{
+        "id": "doze",
+        "group": "z",
+        "rule": "do_e",
+        "url": "/z/doze.jpg",
+        "map3": "/z/doze.mp3",
+        "question": ["f", "a", "z", "n"],
+        "answer": "z"
+      },
+      {
+        "id": "quiz",
+        "group": "z",
+        "rule": "qui_",
+        "url": "/z/quiz.jpg",
+        "map3": "/z/quiz.mp3",
+        "question": ["m", "a", "z", "v"],
+        "answer": "z"
+      }, {
+        "id": "sneeze",
+        "group": "z",
+        "rule": "snee_e",
+        "url": "/z/sneeze.jpg",
+        "map3": "/z/sneeze.mp3",
+        "question": ["f", "a", "z", "i"],
+        "answer": "z"
+      }, {
+        "id": "zero",
+        "group": "z",
+        "rule": "_ero",
+        "url": "/z/zero.jpg",
+        "map3": "/z/zero.mp3",
+        "question": ["f", "a", "z", "u"],
+        "answer": "z"
+      }, {
+        "id": "zoo",
+        "group": "z",
+        "rule": "_oo",
+        "url": "/z/zoo.jpg",
+        "map3": "/z/zoo.mp3",
+        "question": ["b", "a", "z", "c"],
+        "answer": "z"
+      }
+    ]
+  }
+}

@@ -39,8 +39,13 @@ import Word from "./word";
 import { setTimeout } from "timers";
 
 const DELAY = 1000;
+
 export default {
   props: {
+    json: {
+      type: Object,
+      default: {}
+    },
     show: {
       type: Boolean,
       default: false
@@ -56,15 +61,28 @@ export default {
       answer: null,
       afterRule: "",
       frontRule: "",
-      result: null,
+      result: "",
       canClick: false,
       //
       animationData: {},
-      animationType: null
+      animationType: null,
+      //
+      asyncWord: null
     };
   },
   computed: {},
   watch: {
+    json() {
+      if (!this.asyncWord && this.json) {
+        let word = [];
+        for (let i in this.json.word) {
+          this.json.word[i].map(item => {
+            word.push(item);
+          });
+        }
+        this.asyncWord = word;
+      }
+    },
     show() {
       if (this.show) {
         this.goAnima();
@@ -132,7 +150,7 @@ export default {
       this.canClick = true;
     },
     loadWord() {
-      let w = Word.getRandomWord();
+      let w = Word.getRandomWord(this.asyncWord);
       this.answer = w.answer;
       this.question = shuffle(w.question);
       this.url = Word.PATH + w.url;
@@ -192,20 +210,22 @@ export default {
   position: absolute;
   bottom: 30rpx;
   right: -15rpx;
-  width: 200rpx;
-  height: 200rpx;
+  width: 100%;
+  height: 100%;
   &.wrony {
     &:after {
+      font-size: 400rpx;
       content: "✘";
     }
-    color: red;
+    color: rgba(212, 17, 17, 0.842);
   }
 
   &.right {
     &:after {
-      content: "✔";
+      font-size: 500rpx;
+      content: "✓";
     }
-    color: green;
+    color: rgba(11, 182, 5, 0.924);
   }
 }
 .game-container {
@@ -235,8 +255,6 @@ export default {
   font-size: 222rpx;
   font-weight: bolder;
   transform: perspective(50%);
-  .img {
-  }
 }
 .text-decoration {
   text-decoration: underline;
@@ -258,7 +276,7 @@ export default {
     width: 230rpx;
     height: 130rpx;
     background: #ffffff;
-    border: 8rpx solid #90cfdf;
+    border: 8rpx solid #90cfdf75;
     border-radius: 30rpx;
     box-shadow: 5px 5px 0px #855a314d;
     &:active {
@@ -270,7 +288,7 @@ export default {
 
 .question {
   text-align: center;
-  font-size: 120rpx;
+  font-size: 80rpx;
   .color {
     color: #e68c4a;
   }

@@ -40,7 +40,7 @@ export default {
   height: 100%;
   z-index: 8;
   position: absolute;
-  background: #e68b4a38;
+  background: #dbd6d238;
 }
 .loader {
   z-index: 9;
