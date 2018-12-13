@@ -23,14 +23,13 @@
 
 <script>
 export default {
-  components: {
-  },
+  components: {},
   props: {
     show: {
       type: Boolean,
-      default: false,
-    },
-  },
+      default: false
+    }
+  }
 };
 </script>
 
@@ -40,7 +39,7 @@ export default {
   height: 100%;
   z-index: 8;
   position: absolute;
-  background: #dbd6d238;
+  background: #ffffff00;
 }
 .loader {
   z-index: 9;
@@ -50,16 +49,19 @@ export default {
   left: 0px;
   right: 0px;
   margin: auto;
-  width: 350rpx;
-  height: 200rpx;
+  width: 220rpx;
+  height: 110rpx;
+  padding: 50rpx;
+  border-radius: 18rpx;
+  background: #ffffffce;
 }
 .loader span {
   display: block;
   background: #e68c4a;
-  width: 14rpx;
-  height: 10%;
-  border-radius: 28rpx;
-  margin-right: 10rpx;
+  width: 12rpx;
+  height: 6%;
+  border-radius: 18rpx;
+  margin-right: 6rpx;
   float: left;
   margin-top: 25%;
 }

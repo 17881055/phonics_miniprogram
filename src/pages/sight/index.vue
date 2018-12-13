@@ -1,7 +1,7 @@
 <template>
 
   <div class="container">
-    <w-game :show="start" :json="gameJson"/>
+    <w-sight :show="start" :json="sightJson"/>
     <w-loading :show="loading" />
 
     <div class="foot"
@@ -17,25 +17,25 @@
 </template>
 
 <script>
-import wGame from "@/components/wGame";
+import wSight from "@/components/wSight";
 import wLoading from "@/components/wLoading";
 import { setTimeout } from "timers";
 
 export default {
   components: {
-    wGame,
+    wSight,
     wLoading
   },
   data() {
     return {
-      gameJson: null,
+      sightJson: null,
       start: false,
       loading: false
     };
   },
   computed: {},
   mounted: function() {
-    if(!this.gameJson){
+    if(!this.sightJson){
       this.loadGameConf();
     }
   },
@@ -47,13 +47,13 @@ export default {
       this.loading = true;
       this.$httpWX
         .get({
-          url: "/static/json/wgame.json"
+          url: "/static/json/wSight.json"
         })
         .then(res => {
           setTimeout(() => {
             this.loading = false;
           }, 100);
-          this.gameJson = res;
+          this.sightJson = res;
         })
         .catch(() => {
           this.loading = false;
@@ -70,7 +70,7 @@ export default {
 .container {
   width: 100%;
   height: 100%;
-  background: url("https://wellwell.wang/static/img/bg@2x.png") 700rpx -10rpx;
+  background: url("https://wellwell.wang/static/img/bg@1x.png") 700rpx -10rpx;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -3,27 +3,27 @@
 
     <div class="button">
       <a @click="handleReviewClick(26)">
-        初级练习26张
+       phonics (26)
       </a>
     </div>
     <div class="button">
       <a @click="handleReviewClick(46)">
-        中级练习46张
+        phonics (46)
       </a>
     </div>
     <div class="button">
       <a @click="handleReviewClick(54)">
-        高级练习54张
+        phonics (54)
       </a>
     </div>
     <div class="button">
       <a @click="handleGameClick(1)">
-        小游戏
+        game
       </a>
     </div>
     <div class="button">
-      <a @click="handleReviewClick">
-        拓展词汇
+      <a @click="handleSightClick(1)">
+        sight word
       </a>
     </div>
 
@@ -58,6 +58,10 @@ export default {
       const url = `../game/main?id=${num}`;
       wx.navigateTo({ url });
     },
+    handleSightClick(num){
+      const url = `../sight/main?id=${num}`;
+      wx.navigateTo({ url });
+    },
     clickHandle(msg, ev) {
       //console.log('clickHandle:', msg, ev);
     }
@@ -83,12 +87,14 @@ export default {
 }
 
 .button {
+
   margin-bottom: 50rpx;
   display: block;
   width: 445rpx;
   height: 120rpx;
   border: 7rpx solid #855931f0;
   border-radius: 30rpx;
+   box-shadow: 10rpx 10rpx 0px #855a314d;
   background: #efd69c;
   &:active {
     transform: scale(0.9);

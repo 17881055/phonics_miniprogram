@@ -170,7 +170,6 @@ export default {
     }
   },
   mounted: function() {
-    console.log(this);
     if (this.$root.$mp.query) {
       this.id = this.$root.$mp.query.id || 26;
     }
@@ -188,7 +187,6 @@ export default {
     }
   },
   onUnload() {
-    console.log(this);
     this.id = 26;
     this.letters = [];
     this.first = true;
@@ -262,15 +260,14 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 10px 10px 0px #855a314d;
+  box-shadow: 10px 10px 0px #2020204d;
   width: 500rpx;
   height: 600rpx;
-  background: #e7c694;
-  border: 7rpx solid #855931f0;
+  background: #fdfdfd;
+  border: 14rpx solid #ceeff7;
   border-radius: 50rpx;
-  color: rgb(128, 73, 10);
-  font-size: 222rpx;
-  font-weight: bolder;
+  color: #065164;
+  font-size: 210rpx;
   transform: perspective(50%);
 }
 

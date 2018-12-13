@@ -1,9 +1,9 @@
 {
   "navigationBarBackgroundColor": "#ceeff7",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "Phonics Box",
+  "navigationBarTitleText": "sight word",
   "backgroundColor": "#ceeff7",
   "backgroundTextStyle": "light",
-  "usingComponents": {
-  }
+  "disableScroll": true,
+  "usingComponents": {}
 }

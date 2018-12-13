@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/main",
     "pages/review/main",
-    "pages/game/main"
+    "pages/game/main",
+    "pages/sight/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

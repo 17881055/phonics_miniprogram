@@ -108,7 +108,6 @@ export default {
       this.afterRule = "";
       this.frontRule = "";
       this.result = null;
-      this.canClick = false;
       //
       this.animationData = {};
       this.animationType = null;

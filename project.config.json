@@ -31,7 +31,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -42,7 +42,13 @@
 				{
 					"id": -1,
 					"name": "game",
-					"pathName": "pages/game/main"
+					"pathName": "pages/game/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Sight",
+					"pathName": "pages/sight/main"
 				}
 			]
 		}
