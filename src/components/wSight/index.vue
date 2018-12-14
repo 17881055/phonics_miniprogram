@@ -165,7 +165,6 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 10px 10px 0px #855a31a4;
   width: 640rpx;
   height: 900rpx;
   background: #fff;
@@ -176,12 +175,7 @@ export default {
 }
 
 .sight-foot {
-  margin: 50rpx 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  padding: 40rpx 0 0;
 }
 
 .button {
