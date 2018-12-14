@@ -35,6 +35,7 @@ export default {
   },
   computed: {},
   mounted: function() {
+    wx.showShareMenu();
     if(!this.gameJson){
       this.loadGameConf();
     }
@@ -52,7 +53,7 @@ export default {
         .then(res => {
           setTimeout(() => {
             this.loading = false;
-          }, 100);
+          }, 300);
           this.gameJson = res;
         })
         .catch(() => {

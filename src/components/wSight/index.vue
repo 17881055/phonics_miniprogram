@@ -4,6 +4,7 @@
     <div class="sight-card"
          :animation="animationData"
          @transitionend="handleAnimation">
+      <w-loading :show="loading" />
       <img v-if="url"
            :src="url"
            :style="{width:imgW,height:imgH}"
@@ -22,11 +23,15 @@
 </template>
 <script>
 import Word from "./word";
+import wLoading from "@/components/wLoading";
 import { setTimeout } from "timers";
 
 const DELAY = 1000;
 
 export default {
+  components: {
+    wLoading
+  },
   props: {
     json: {
       type: Object,
@@ -39,6 +44,7 @@ export default {
   },
   data() {
     return {
+      loading: false,
       url: null,
       imgW: 0,
       imgH: 0,
@@ -122,10 +128,12 @@ export default {
       this.imgW = `${w * 0.75}rpx`;
       this.imgH = `${h * 0.75}rpx`;
       this.canClick = true;
+      this.loading = false;
     },
     loadWord() {
       let w = Word.getRandomWord(this.asyncWord);
       this.url = Word.PATH + w.url;
+      this.loading = true;
     },
     next() {
       this.backAnima();

@@ -170,6 +170,7 @@ export default {
     }
   },
   mounted: function() {
+    wx.showShareMenu();
     if (this.$root.$mp.query) {
       this.id = this.$root.$mp.query.id || 26;
     }
