@@ -4,6 +4,7 @@
   "navigationBarTitleText": "Phonics Box",
   "backgroundColor": "#ceeff7",
   "backgroundTextStyle": "light",
+  "disableScroll": true,
   "usingComponents": {
   }
 }
