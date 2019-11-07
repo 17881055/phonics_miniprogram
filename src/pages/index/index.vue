@@ -14,6 +14,17 @@
            :style="{right: (-transformX*2-80)  + 'rpx'}"></div>
     </div>
     <div class="menu">
+     
+      <div class="button">
+        <a @click="handleSightClick(1)">
+          sight word
+        </a>
+      </div>
+       <div class="button">
+        <a @click="handleGameClick(1)">
+          game
+        </a>
+      </div>
       <div class="button">
         <a @click="handleReviewClick(26)">
           phonics (26)
@@ -27,16 +38,6 @@
       <div class="button">
         <a @click="handleReviewClick(54)">
           phonics (54)
-        </a>
-      </div>
-      <div class="button">
-        <a @click="handleGameClick(1)">
-          game
-        </a>
-      </div>
-      <div class="button">
-        <a @click="handleSightClick(1)">
-          sight word
         </a>
       </div>
     </div>

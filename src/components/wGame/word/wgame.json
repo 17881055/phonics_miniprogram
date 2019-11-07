@@ -1,6 +1,6 @@
 {
   "path": "https://wellwell.wang/static/img/game",
-  "vesion": "20181207",
+  "vesion": "20181217",
   "word": {
     "A": [{
         "id": "ant",
@@ -270,9 +270,9 @@
         "answer": "f"
       },
       {
-        "id": "foot",
+        "id": "fat",
         "group": "f",
-        "rule": "_oot",
+        "rule": "_at",
         "url": "/f/fat.jpg",
         "map3": "/f/fat.mp3",
         "question": ["r", "g", "b", "f"],
@@ -1053,7 +1053,7 @@
       {
         "id": "vet",
         "group": "v",
-        "rule": "v_t",
+        "rule": "_et",
         "url": "/v/vet.jpg",
         "map3": "/v/vet.mp3",
         "question": ["f", "a", "v", "c"],

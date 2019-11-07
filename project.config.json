@@ -13,6 +13,8 @@
 	"compileType": "miniprogram",
 	"appid": "wx899dc066d1e3e31c",
 	"projectname": "PhonicsBox",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
