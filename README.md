@@ -13,19 +13,13 @@
 * Sight Word （ 高频词汇 ）有声跟读。 现在是 94个高频词汇 。
 * 填字母游戏。
 
-
-##### [1](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG300.png "1")
-##### [2](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG301.png "2")
+ [1](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG300.png =200)
+ [2](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG301.png =200)
 ##### [3](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG302.png "3")
 ##### [4](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG303.png "4")
 ##### [5](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG304.png "5")
 ##### [6](https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG305.png "6")
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG300.png" width = "200" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG301.png" width = "200" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG302.png" width = "200" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG303.png" width = "200" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG304.png" width = "200" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG305.png" width = "200" />
+
 ##### [1](https://wellwell.wang/static/img/WechatIMG300.png "1")
 ##### [2](https://wellwell.wang/static/img/WechatIMG301.png "2")
 ##### [3](https://wellwell.wang/static/img/WechatIMG302.png "3")
