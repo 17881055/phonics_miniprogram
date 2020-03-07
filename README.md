@@ -20,7 +20,7 @@
 ![3](https://wellwell.wang/static/img/WechatIMG302.png "3")
 ![4](https://wellwell.wang/static/img/WechatIMG303.png "4")
 ![5](https://wellwell.wang/static/img/WechatIMG304.png "5")
-![6](https://wellwell.wang/static/img/WechatIMG305.png"6")
+![6](https://wellwell.wang/static/img/WechatIMG305.png "6")
 
 
 
