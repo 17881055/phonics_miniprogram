@@ -1,11 +1,10 @@
-# 欢迎使用 Phonics 小程序；
+# 欢迎使用 Phonics 小程序
 
 
 ** Phonics 小程序 本来是为我女儿复习 Phonics 自然拼读 和 复习 Sight word 而开发的**
 
 
 ![phonics](https://wellwell.wang/static/img/gh_5686c48c77c0_430.jpg "phonics")
-
 
 
 
