@@ -12,12 +12,12 @@
 * Sight Word （ 高频词汇 ）有声跟读。 现在是 94个高频词汇 。
 * 填字母游戏。
 
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG300.png" width = "150" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG301.png" width = "150" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG302.png" width = "150" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG303.png" width = "150" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG304.png" width = "150" />
-<img src="https://raw.githubusercontent.com/17881055/phonics_miniprogram/master/image/WechatIMG305.png" width = "150" />
+<img src="https://wellwell.wang/static/img/WechatIMG300.png" width = "150" />
+<img src="https://wellwell.wang/static/img/WechatIMG301.png" width = "150" />
+<img src="https://wellwell.wang/static/img/WechatIMG302.png" width = "150" />
+<img src="https://wellwell.wang/static/img/WechatIMG303.png" width = "150" />
+<img src="https://wellwell.wang/static/img/WechatIMG304.png" width = "150" />
+<img src="https://wellwell.wang/static/img/WechatIMG305.png" width = "150" />
 
 ## 未来 TODO
 * 扩充 Sight Word （ 高频词汇 ） 到 220个单词。
